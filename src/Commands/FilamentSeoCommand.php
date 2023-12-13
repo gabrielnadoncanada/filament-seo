@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ng\FilamentSeo\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSeoCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-seo';
 
     public $description = 'My command';
 
