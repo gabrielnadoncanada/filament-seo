@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Ng\FilamentSeo\Commands\FilamentSeoCommand;
+use Ng\FilamentSeo\Testing\TestsFilamentSeo;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ng\FilamentSeo\Commands\FilamentSeoCommand;
-use Ng\FilamentSeo\Testing\TestsFilamentSeo;
 
 class FilamentSeoServiceProvider extends PackageServiceProvider
 {
